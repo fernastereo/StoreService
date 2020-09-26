@@ -34,7 +34,8 @@ namespace ServiceStore.Api.Author.Application
                 {
                     FirstName = request.FirstName,
                     LastName = request.LastName,
-                    BirthDate = request.BirthDate
+                    BirthDate = request.BirthDate,
+                    AuthorBookGuid = Convert.ToString(Guid.NewGuid())
                 };
 
                 _context.AuthorBook.Add(authorBook);

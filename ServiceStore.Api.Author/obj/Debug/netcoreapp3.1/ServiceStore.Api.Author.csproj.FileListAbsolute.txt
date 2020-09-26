@@ -36,3 +36,7 @@ C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceSto
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Author\obj\Debug\netcoreapp3.1\ServiceStore.Api.Author.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Author\obj\Debug\netcoreapp3.1\ServiceStore.Api.Author.pdb
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Author\obj\Debug\netcoreapp3.1\ServiceStore.Api.Author.genruntimeconfig.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Author\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Author\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Author\obj\Debug\netcoreapp3.1\ServiceStore.Api.Author.csproj.CoreCompileInputs.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Author\obj\Debug\netcoreapp3.1\ServiceStore.Api.Author.MvcApplicationPartsAssemblyInfo.cache
