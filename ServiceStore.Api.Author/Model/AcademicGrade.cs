@@ -11,5 +11,8 @@ namespace ServiceStore.Api.Author.Model
         public string Name { get; set; }
         public string AcademicCenter { get; set; }
         public DateTime? GraduationDate { get; set; }
+        public int AuthorBookId { get; set; }
+        public AuthorBook AuthorBook { get; set; }
+        public string AcademicGradeGuid { get; set; }
     }
 }
