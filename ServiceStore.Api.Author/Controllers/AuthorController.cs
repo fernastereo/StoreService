@@ -6,6 +6,7 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServiceStore.Api.Author.Application;
+using ServiceStore.Api.Author.Model;
 
 namespace ServiceStore.Api.Author.Controllers
 {
@@ -24,6 +25,12 @@ namespace ServiceStore.Api.Author.Controllers
         public async Task<ActionResult<Unit>> Create(New.Execute data)
         {
             return await _mediator.Send(data);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<AuthorBook>>> GetAuthors()
+        {
+            return await _mediator.Send(new Query.AuthorList());
         }
     }
 }
