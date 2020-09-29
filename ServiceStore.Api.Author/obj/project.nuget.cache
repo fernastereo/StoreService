@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5psRxU2deNt9blob1fNUpJgyHDFIO27zOai7cUUqTcMT1fB8VkpVU+LftrlqV0PBFTwa5IOn1OH/Y82XrHyByQ==",
+  "dgSpecHash": "P+Y+u+2po0Ic7bVxlJE7HKh+blEkq5jtKjnk20lMqyxFZsTwb6H0BHe62VklFcchtnhz3pW4pv26VhIiB8b6kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fernast\\Documents\\Code\\DotNet\\MicroserviceStore\\StoreService\\ServiceStore.Api.Author\\ServiceStore.Api.Author.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Fernast\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\Fernast\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+    "C:\\Users\\Fernast\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
