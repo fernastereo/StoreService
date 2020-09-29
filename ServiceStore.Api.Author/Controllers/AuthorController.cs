@@ -28,7 +28,7 @@ namespace ServiceStore.Api.Author.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<AuthorBook>>> GetAuthors()
+        public async Task<ActionResult<List<AuthorDto>>> GetAuthors()
         {
             return await _mediator.Send(new Query.AuthorList());
         }

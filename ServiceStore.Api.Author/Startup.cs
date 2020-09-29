@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -35,6 +36,7 @@ namespace ServiceStore.Api.Author
                 options.UseNpgsql(Configuration.GetConnectionString("DatabaseConnection"));
             });
             services.AddMediatR(typeof(New.Handler).Assembly);
+            services.AddAutoMapper(typeof(Query.Handler));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
