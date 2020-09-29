@@ -32,5 +32,11 @@ namespace ServiceStore.Api.Author.Controllers
         {
             return await _mediator.Send(new Query.AuthorList());
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<AuthorBook>> GetAuthor(string id)
+        {
+            return await _mediator.Send(new QueryFiltered.UniqueAuthor { AuthorBookGuid = id });
+        }
     }
 }
