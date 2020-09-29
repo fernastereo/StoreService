@@ -34,7 +34,7 @@ namespace ServiceStore.Api.Author.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<AuthorBook>> GetAuthor(string id)
+        public async Task<ActionResult<AuthorDto>> GetAuthor(string id)
         {
             return await _mediator.Send(new QueryFiltered.UniqueAuthor { AuthorBookGuid = id });
         }
