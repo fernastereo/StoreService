@@ -32,6 +32,8 @@ namespace ServiceStore.Api.Book.Application
             {
                 var books = await _context.Book.ToListAsync();
                 var booksDto = _mapper.Map<List<BookAuthor>, List<BookAuthorDto>>(books);
+
+                return booksDto;
             }
         }
     }

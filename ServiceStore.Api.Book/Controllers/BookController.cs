@@ -25,5 +25,11 @@ namespace ServiceStore.Api.Book.Controllers
         {
             return await _mediator.Send(data);
         }
+
+        [HttpGet]
+        public async Task<ActionResult<List<BookAuthorDto>>> GetBooks()
+        {
+            return await _mediator.Send(new Query.Execute());
+        }
     }
 }
