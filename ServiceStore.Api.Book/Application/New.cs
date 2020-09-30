@@ -14,7 +14,7 @@ namespace ServiceStore.Api.Book.Application
     {
         public class Execute : IRequest
         {
-            public string Titulo { get; set; }
+            public string Title { get; set; }
             public DateTime? ReleaseDate { get; set; }
             public Guid? AuthorBook { get; set; }
         }
@@ -23,7 +23,7 @@ namespace ServiceStore.Api.Book.Application
         {
             public ExecuteValidation()
             {
-                RuleFor(x => x.Titulo).NotEmpty();
+                RuleFor(x => x.Title).NotEmpty();
                 RuleFor(x => x.ReleaseDate).NotEmpty();
                 RuleFor(x => x.AuthorBook).NotEmpty();
             }
@@ -41,9 +41,10 @@ namespace ServiceStore.Api.Book.Application
             {
                 var book = new BookAuthor
                 {
-                    Title = request.Titulo,
+                    Title = request.Title,
                     ReleaseDate = request.ReleaseDate,
-                    AuthorBook = request.AuthorBook
+                    AuthorBook = request.AuthorBook,
+                    BookId = Guid.NewGuid()
                 };
 
                 _context.Book.Add(book);
