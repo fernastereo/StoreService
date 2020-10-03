@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ServiceStore.Api.Shop.Application;
 using ServiceStore.Api.Shop.Persistence;
 
 namespace ServiceStore.Api.Shop
@@ -31,6 +33,7 @@ namespace ServiceStore.Api.Shop
             {
                 options.UseMySQL(Configuration.GetConnectionString("DBConnection"));
             });
+            services.AddMediatR(typeof(New.Handler).Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

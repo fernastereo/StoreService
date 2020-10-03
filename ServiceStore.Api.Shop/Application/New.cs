@@ -13,8 +13,8 @@ namespace ServiceStore.Api.Shop.Application
     {
         public class Execute : IRequest
         {
-            public DateTime SessionCreatedAt { get; set; }
-            public List<string> ProductsList { get; set; }
+            public DateTime CreatedAt { get; set; }
+            public List<string> DetailList { get; set; }
         }
 
         public class Handler : IRequestHandler<Execute>
@@ -29,7 +29,7 @@ namespace ServiceStore.Api.Shop.Application
             {
                 var shopSession = new ShopSession
                 {
-                    CreatedAt = request.SessionCreatedAt
+                    CreatedAt = request.CreatedAt
                 };
                 _context.ShopSession.Add(shopSession);
                 var value = await _context.SaveChangesAsync();
@@ -40,7 +40,7 @@ namespace ServiceStore.Api.Shop.Application
                 }
 
                 int id = shopSession.ShopSessionId;
-                foreach (var obj in request.ProductsList)
+                foreach (var obj in request.DetailList)
                 {
                     var sessionDetail = new ShopSessionDetail
                     {
