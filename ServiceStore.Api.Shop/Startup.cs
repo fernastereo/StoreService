@@ -34,6 +34,10 @@ namespace ServiceStore.Api.Shop
                 options.UseMySQL(Configuration.GetConnectionString("DBConnection"));
             });
             services.AddMediatR(typeof(New.Handler).Assembly);
+            services.AddHttpClient("Books", config =>
+            {
+                config.BaseAddress = new Uri(Configuration["Services:Books"]);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
