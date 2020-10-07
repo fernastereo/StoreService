@@ -45,7 +45,6 @@ C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceSto
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.csprojAssemblyReference.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.AssemblyInfoInputs.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.AssemblyInfo.cs
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.csproj.CoreCompileInputs.cache
