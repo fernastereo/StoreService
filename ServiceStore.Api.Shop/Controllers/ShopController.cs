@@ -25,5 +25,11 @@ namespace ServiceStore.Api.Shop.Controllers
         {
             return await _mediator.Send(data);
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ShopDto>> GetShop(int id)
+        {
+            return await _mediator.Send(new Query.Execute { ShopSessionId = id });
+        }
     }
 }
