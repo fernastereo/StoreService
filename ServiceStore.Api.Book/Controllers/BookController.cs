@@ -9,7 +9,7 @@ using ServiceStore.Api.Book.Application;
 
 namespace ServiceStore.Api.Book.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] //api/book
     [ApiController]
     public class BookController : ControllerBase
     {
