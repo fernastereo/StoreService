@@ -13,6 +13,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ServiceStore.Api.Shop.Application;
 using ServiceStore.Api.Shop.Persistence;
+using ServiceStore.Api.Shop.RemoteInterface;
+using ServiceStore.Api.Shop.RemoteService;
 
 namespace ServiceStore.Api.Shop
 {
@@ -28,6 +30,7 @@ namespace ServiceStore.Api.Shop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IBooksService, BooksService>();
             services.AddControllers();
             services.AddDbContext<ShopContext>(options =>
             {
