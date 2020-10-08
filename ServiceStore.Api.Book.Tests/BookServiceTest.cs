@@ -1,11 +1,13 @@
 ﻿using AutoMapper;
 using GenFu;
+using Microsoft.EntityFrameworkCore;
 using Moq;
 using ServiceStore.Api.Book.Application;
 using ServiceStore.Api.Book.Model;
 using ServiceStore.Api.Book.Persistence;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Xunit;
 
@@ -23,6 +25,19 @@ namespace ServiceStore.Api.Book.Tests
             list[0].BookId = Guid.Empty;
 
             return list;
+        }
+
+        private Mock<BookContext> CreateContext()
+        {
+            var dataTest = GetDataTest().AsQueryable();
+            
+            var dbSet = new Mock<DbSet<BookAuthor>>();
+            dbSet.As<IQueryable<BookAuthor>>().Setup(x => x.Provider).Returns(dataTest.Provider);
+            dbSet.As<IQueryable<BookAuthor>>().Setup(x => x.Expression).Returns(dataTest.Expression);
+            dbSet.As<IQueryable<BookAuthor>>().Setup(x => x.ElementType).Returns(dataTest.ElementType);
+            dbSet.As<IQueryable<BookAuthor>>().Setup(x => x.GetEnumerator()).Returns(dataTest.GetEnumerator());
+
+
         }
 
         [Fact]
