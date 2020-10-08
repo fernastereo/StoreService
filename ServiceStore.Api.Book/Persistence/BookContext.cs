@@ -9,11 +9,15 @@ namespace ServiceStore.Api.Book.Persistence
 {
     public class BookContext : DbContext
     {
+        public BookContext()
+        {
+
+        }
         public BookContext(DbContextOptions<BookContext> options) : base(options)
         {
                 
         }
 
-        public DbSet<BookAuthor> Book { get; set; }
+        public virtual DbSet<BookAuthor> Book { get; set; }
     }
 }

@@ -37,25 +37,43 @@ namespace ServiceStore.Api.Book.Tests
             dbSet.As<IQueryable<BookAuthor>>().Setup(x => x.ElementType).Returns(dataTest.ElementType);
             dbSet.As<IQueryable<BookAuthor>>().Setup(x => x.GetEnumerator()).Returns(dataTest.GetEnumerator());
 
+            dbSet.As<IAsyncEnumerable<BookAuthor>>().Setup(x => x.GetAsyncEnumerator(new System.Threading.CancellationToken()))
+            .Returns(new AsyncEnumerator<BookAuthor>(dataTest.GetEnumerator()));
 
+            var context = new Mock<BookContext>();
+            context.Setup(x => x.Book).Returns(dbSet.Object);
+
+            return context;
         }
 
         [Fact]
-        public void GetBooks()
+        public async void GetBooks()
         {
+            System.Diagnostics.Debugger.Launch();
             //Which method of the microervice is in charge of query books?
 
             //1. Emulate EFCore instance: BookContext
             //To emulate the actions and events from an object in unit test environment que need to use a Mock object
             //install: Moq package
 
-            var mockContext = new Mock<BookContext>();
+            var mockContext = CreateContext();
 
             //2. Emulate IMapper
-            var mockMapper = new Mock<IMapper>();
+            var mapConfig = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new MappingTest());
+            });
+
+            var mapper = mapConfig.CreateMapper();
 
             //3. Instanciate the Handler class and send as parameters the created mocks before
-            Query.Handler handler = new Query.Handler(mockContext.Object, mockMapper.Object);
+            Query.Handler handler = new Query.Handler(mockContext.Object, mapper);
+
+            Query.Execute request = new Query.Execute();
+
+            var list = await handler.Handle(request, new System.Threading.CancellationToken());
+
+            Assert.True(list.Any());
         }
     }
 }
