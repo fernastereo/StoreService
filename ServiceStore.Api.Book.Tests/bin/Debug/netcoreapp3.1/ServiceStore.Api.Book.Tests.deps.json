@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ServiceStore.Api.Book.Tests/1.0.0": {
         "dependencies": {
+          "GenFu": "1.6.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Moq": "4.14.5",
           "ServiceStore.Api.Book": "1.0.0",
@@ -96,6 +97,18 @@
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.6.2.0"
+          }
+        }
+      },
+      "GenFu/1.6.0": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/GenFu.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
           }
         }
       },
@@ -1763,6 +1776,13 @@
       "sha512": "sha512-A3Hw0xjB/j6b/UiC8RgLsp5TkApZOsLzh5LAmfZkbQpWBrAqo8B4eOm+uyYhN3crSg0E6kgse8k6EdZpRoj+sQ==",
       "path": "fluentvalidation.dependencyinjectionextensions/8.6.2",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512"
+    },
+    "GenFu/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zftgGlBxsNv943AUCRQaxPOvktGcb7kNGX9qL7vvKeXpOM7V/sQIfwDPjg/TSGzAexDyaojbzjKh5c2Qi3UBiQ==",
+      "path": "genfu/1.6.0",
+      "hashPath": "genfu.1.6.0.nupkg.sha512"
     },
     "MediatR/8.0.0": {
       "type": "package",

@@ -96,6 +96,19 @@
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
+      "GenFu/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Reflection.TypeExtensions": "4.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/GenFu.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/GenFu.dll": {}
+        }
+      },
       "MediatR/8.0.0": {
         "type": "package",
         "compile": {
@@ -2649,6 +2662,21 @@
         "fluentvalidation.dependencyinjectionextensions.nuspec",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "GenFu/1.6.0": {
+      "sha512": "zftgGlBxsNv943AUCRQaxPOvktGcb7kNGX9qL7vvKeXpOM7V/sQIfwDPjg/TSGzAexDyaojbzjKh5c2Qi3UBiQ==",
+      "type": "package",
+      "path": "genfu/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "genfu.1.6.0.nupkg.sha512",
+        "genfu.nuspec",
+        "lib/net45/GenFu.dll",
+        "lib/net46/GenFu.dll",
+        "lib/net461/GenFu.dll",
+        "lib/netstandard1.3/GenFu.dll"
       ]
     },
     "MediatR/8.0.0": {
@@ -8108,6 +8136,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "GenFu >= 1.6.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Moq >= 4.14.5",
       "ServiceStore.Api.Book >= 1.0.0",
@@ -8162,6 +8191,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "GenFu": {
+            "target": "Package",
+            "version": "[1.6.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.5.0, )"

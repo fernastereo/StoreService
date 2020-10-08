@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using GenFu;
 using Moq;
 using ServiceStore.Api.Book.Application;
+using ServiceStore.Api.Book.Model;
 using ServiceStore.Api.Book.Persistence;
 using System;
 using System.Collections.Generic;
@@ -11,6 +13,18 @@ namespace ServiceStore.Api.Book.Tests
 {
     public class BookServiceTest
     {
+        private IEnumerable<BookAuthor> GetDataTest()
+        {
+            A.Configure<BookAuthor>()
+                .Fill(x => x.Title).AsArticleTitle()
+                .Fill(x => x.BookId, () => { return Guid.NewGuid(); });
+
+            var list = A.ListOf<BookAuthor>(30);
+            list[0].BookId = Guid.Empty;
+
+            return list;
+        }
+
         [Fact]
         public void GetBooks()
         {

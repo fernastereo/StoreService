@@ -136,6 +136,7 @@ C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceSto
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.pdb
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\Moq.dll
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.pdb
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\GenFu.dll
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.csproj.CoreCompileInputs.cache
