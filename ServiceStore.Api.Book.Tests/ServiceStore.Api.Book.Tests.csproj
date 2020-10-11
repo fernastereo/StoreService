@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ServiceStore.Api.Author\ServiceStore.Api.Author.csproj" />
     <ProjectReference Include="..\ServiceStore.Api.Book\ServiceStore.Api.Book.csproj" />
   </ItemGroup>
 

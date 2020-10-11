@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sE+zVeHcMP8+/oEpV+tK5FGHhtAdD+vj+0KWYpi8wbz2c6WVzV5sGMKTUv9bpRdiimMW1A1TTThLuNfMFhKJmA==",
+  "dgSpecHash": "IBaRo0XBOA+a2vOTKgX/iE9JG0VbAHEQLcftGGZ381mlqmXCKg2zqDGz5uIH2rFK5hegY0Z78WHnCE0dVrQ8lA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fernast\\Documents\\Code\\DotNet\\MicroserviceStore\\StoreService\\ServiceStore.Api.Book.Tests\\ServiceStore.Api.Book.Tests.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "C:\\Users\\Fernast\\.nuget\\packages\\moq\\4.14.5\\moq.4.14.5.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\Fernast\\.nuget\\packages\\npgsql\\4.1.3\\npgsql.4.1.3.nupkg.sha512",
+    "C:\\Users\\Fernast\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\3.1.2\\npgsql.entityframeworkcore.postgresql.3.1.2.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -112,7 +114,7 @@
     "C:\\Users\\Fernast\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\system.runtime.caching\\4.5.0\\system.runtime.caching.4.5.0.nupkg.sha512",
-    "C:\\Users\\Fernast\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\Fernast\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
