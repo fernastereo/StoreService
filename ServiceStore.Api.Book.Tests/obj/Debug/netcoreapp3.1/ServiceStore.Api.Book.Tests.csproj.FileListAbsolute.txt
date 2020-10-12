@@ -139,9 +139,12 @@ C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceSto
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.pdb
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\GenFu.dll
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\ServiceStore.Api.Author.exe
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\Npgsql.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\ServiceStore.Api.Author.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\ServiceStore.Api.Author.pdb
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book.Tests\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.Tests.csproj.CoreCompileInputs.cache

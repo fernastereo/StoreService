@@ -70,7 +70,7 @@ namespace ServiceStore.Api.Book.Tests
         [Fact]
         public async void GetBooks()
         {
-            System.Diagnostics.Debugger.Launch();
+            //System.Diagnostics.Debugger.Launch();
             //Which method of the microervice is in charge of query books?
 
             //1. Emulate EFCore instance: BookContext
@@ -95,6 +95,26 @@ namespace ServiceStore.Api.Book.Tests
             var list = await handler.Handle(request, new System.Threading.CancellationToken());
 
             Assert.True(list.Any());
+        }
+
+        [Fact]
+        public async void CreateBook()
+        {
+            System.Diagnostics.Debugger.Launch();
+            var options = new DbContextOptionsBuilder<BookContext>().UseInMemoryDatabase(databaseName: "BooksDataBase").Options;
+
+            var context = new BookContext(options);
+
+            var request = new New.Execute();
+            request.Title = "Microservice Test Book";
+            request.AuthorBook = Guid.Empty;
+            request.ReleaseDate = DateTime.Now;
+
+            var handler = new New.Handler(context);
+
+            var book = await handler.Handle(request, new System.Threading.CancellationToken());
+
+            Assert.True(book != null);
         }
     }
 }
