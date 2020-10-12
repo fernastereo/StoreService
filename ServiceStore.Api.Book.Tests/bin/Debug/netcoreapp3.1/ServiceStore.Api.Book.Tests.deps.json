@@ -11,6 +11,7 @@
           "GenFu": "1.6.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Moq": "4.14.5",
+          "ServiceStore.Api.Author": "1.0.0",
           "ServiceStore.Api.Book": "1.0.0",
           "coverlet.collector": "1.2.0",
           "xunit": "2.4.0",
@@ -736,6 +737,31 @@
           }
         }
       },
+      "Npgsql/4.1.3": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Npgsql.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.1.3.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/3.1.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.2",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.2",
+          "Npgsql": "4.1.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
       "NuGet.Frameworks/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {
@@ -1301,7 +1327,7 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -1544,7 +1570,7 @@
       "System.Text.Encoding.CodePages/4.5.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         }
       },
       "System.Text.Encoding.Extensions/4.3.0": {
@@ -1706,6 +1732,18 @@
       "xunit.runner.visualstudio/2.4.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.5.0"
+        }
+      },
+      "ServiceStore.Api.Author/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1",
+          "FluentValidation.AspNetCore": "8.6.2",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.2",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "3.1.2"
+        },
+        "runtime": {
+          "ServiceStore.Api.Author.dll": {}
         }
       },
       "ServiceStore.Api.Book/1.0.0": {
@@ -2021,6 +2059,20 @@
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "Npgsql/4.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sWTXCb6WPPO7WEw4+1XoRqE49EdWmuyMA15LVbzV6jZgRxYWK8TbdniWMjguzmAgOZVYTmrCf+jsqPYoSqACvA==",
+      "path": "npgsql/4.1.3",
+      "hashPath": "npgsql.4.1.3.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hgCP4MGcOmxvtvJVPbgJ99B/wzZTAzdP9AHjcuN/S1F0SdaqaDAHFJGnE8d0ABa/kHYHqRdxqsbBAiJAEbqosQ==",
+      "path": "npgsql.entityframeworkcore.postgresql/3.1.2",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.3.1.2.nupkg.sha512"
     },
     "NuGet.Frameworks/5.0.0": {
       "type": "package",
@@ -2484,12 +2536,12 @@
       "path": "system.runtime.caching/4.5.0",
       "hashPath": "system.runtime.caching.4.5.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
     },
     "System.Runtime.Extensions/4.3.0": {
       "type": "package",
@@ -2770,6 +2822,11 @@
       "sha512": "sha512-3eq5cGXbEJkqW9nwLuXwtxy9B5gMA8i7HW4rN63AhAvy5UvEcQbZnve23wx/oPrkyg/4CbfNhxkBezS0b1oUdQ==",
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
+    },
+    "ServiceStore.Api.Author/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ServiceStore.Api.Book/1.0.0": {
       "type": "project",
