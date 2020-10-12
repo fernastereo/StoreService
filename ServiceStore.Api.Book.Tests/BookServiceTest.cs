@@ -40,6 +40,8 @@ namespace ServiceStore.Api.Book.Tests
             dbSet.As<IAsyncEnumerable<BookAuthor>>().Setup(x => x.GetAsyncEnumerator(new System.Threading.CancellationToken()))
             .Returns(new AsyncEnumerator<BookAuthor>(dataTest.GetEnumerator()));
 
+            dbSet.As<IQueryable<BookAuthor>>().Setup(x => x.Provider).Returns(new AsyncQueryProvider<BookAuthor>(dataTest.Provider));
+
             var context = new Mock<BookContext>();
             context.Setup(x => x.Book).Returns(dbSet.Object);
 
