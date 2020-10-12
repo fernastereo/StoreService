@@ -17,6 +17,7 @@ namespace ServiceStore.Api.Book.Tests
     {
         private IEnumerable<BookAuthor> GetDataTest()
         {
+            //This method is for get fake data from genfu
             A.Configure<BookAuthor>()
                 .Fill(x => x.Title).AsArticleTitle()
                 .Fill(x => x.BookId, () => { return Guid.NewGuid(); });
