@@ -1,3 +1,7 @@
+networks:
+  default:
+    external:
+      name: microservicenet
 services:
   servicestore.api.author:
     build:
@@ -23,7 +27,8 @@ services:
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     ports:
-    - target: 80
+    - published: 6104
+      target: 80
     tty: true
     volumes:
     - C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Author:/app:rw

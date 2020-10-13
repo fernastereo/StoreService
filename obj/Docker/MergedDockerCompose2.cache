@@ -11,5 +11,15 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
     image: servicestoreapiauthor
     ports:
+    - published: 6104
+      target: 80
+  servicestore.api.book:
+    build:
+      context: C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService
+      dockerfile: ServiceStore.Api.Book/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: servicestoreapibook
+    ports:
     - target: 80
 version: '3.4'

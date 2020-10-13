@@ -6,7 +6,14 @@ services:
     build:
       context: .
       dockerfile: ServiceStore.Api.Author/Dockerfile
+  servicestore.api.book:
+    image: ${DOCKER_REGISTRY-}servicestoreapibook
+    build:
+      context: .
+      dockerfile: ServiceStore.Api.Book/Dockerfile
+
 networks:
   default:
     external:
       name: microservicenet
+

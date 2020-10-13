@@ -47,9 +47,6 @@ C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceSto
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.AssemblyInfoInputs.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.AssemblyInfo.cs
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.csproj.CoreCompileInputs.cache
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.RazorTargetAssemblyInfo.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.csproj.CopyComplete
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\staticwebassets\ServiceStore.Api.Book.StaticWebAssets.Manifest.cache
@@ -57,3 +54,7 @@ C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceSto
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.pdb
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.genruntimeconfig.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.csprojAssemblyReference.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.csproj.CoreCompileInputs.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book\obj\Debug\netcoreapp3.1\ServiceStore.Api.Book.MvcApplicationPartsAssemblyInfo.cache

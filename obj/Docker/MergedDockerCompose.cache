@@ -1,3 +1,7 @@
+networks:
+  default:
+    external:
+      name: microservicenet
 services:
   servicestore.api.author:
     build:
@@ -7,5 +11,6 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
     image: servicestoreapiauthor
     ports:
-    - target: 80
+    - published: 6104
+      target: 80
 version: '3.4'

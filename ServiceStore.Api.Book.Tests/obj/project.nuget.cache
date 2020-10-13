@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4ABtVTupjmZ12wdLqo9x6/01+jGPCIMmJcKaW55fck9MqpY//KBqz7paWgqTVatceuiVULwMp4DZtfYpcclYNw==",
+  "dgSpecHash": "LDJAikNrNQBbIZZySgbwA+nHYAD8xRFcbY39MYEwKs+TMfHrgfASeSDagFGvtwF/zscgbg9C+catPfddWuKjng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fernast\\Documents\\Code\\DotNet\\MicroserviceStore\\StoreService\\ServiceStore.Api.Book.Tests\\ServiceStore.Api.Book.Tests.csproj",
   "expectedPackageFiles": [
