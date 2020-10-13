@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  servicestore.api.author:
+    image: ${DOCKER_REGISTRY-}servicestoreapiauthor
+    build:
+      context: .
+      dockerfile: ServiceStore.Api.Author/Dockerfile
+networks:
+  default:
+    external:
+      name: microservicenet

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N0ai/MPTdl6r23NtUMwqtN4JWKnJJVWwMNWI/AVAE3wSdxiwpE8Se4BfO/5oIDlljfOJaFSnGaZgPv0cPs8BEA==",
+  "dgSpecHash": "4ABtVTupjmZ12wdLqo9x6/01+jGPCIMmJcKaW55fck9MqpY//KBqz7paWgqTVatceuiVULwMp4DZtfYpcclYNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fernast\\Documents\\Code\\DotNet\\MicroserviceStore\\StoreService\\ServiceStore.Api.Book.Tests\\ServiceStore.Api.Book.Tests.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\moq\\4.14.5\\moq.4.14.5.nupkg.sha512",
