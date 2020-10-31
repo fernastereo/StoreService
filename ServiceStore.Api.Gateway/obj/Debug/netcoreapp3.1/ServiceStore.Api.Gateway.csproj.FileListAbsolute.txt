@@ -1,0 +1,10 @@
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\bin\Debug\netcoreapp3.1\ServiceStore.Api.Gateway.exe
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\obj\Debug\netcoreapp3.1\ServiceStore.Api.Gateway.csprojAssemblyReference.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\obj\Debug\netcoreapp3.1\ServiceStore.Api.Gateway.AssemblyInfoInputs.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\obj\Debug\netcoreapp3.1\ServiceStore.Api.Gateway.AssemblyInfo.cs
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\obj\Debug\netcoreapp3.1\ServiceStore.Api.Gateway.RazorTargetAssemblyInfo.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\obj\Debug\netcoreapp3.1\staticwebassets\ServiceStore.Api.Gateway.StaticWebAssets.Manifest.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Gateway\obj\Debug\netcoreapp3.1\staticwebassets\ServiceStore.Api.Gateway.StaticWebAssets.xml
