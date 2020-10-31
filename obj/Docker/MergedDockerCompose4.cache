@@ -1,7 +1,7 @@
 networks:
   default:
-    external:
-      name: microservicenet
+    external: true
+    name: microservicenet
 services:
   servicestore.api.author:
     build:
@@ -62,10 +62,45 @@ services:
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     ports:
-    - target: 80
+    - published: 6105
+      target: 80
     tty: true
     volumes:
     - C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Book:/app:rw
+    - C:\Users\Fernast\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Fernast\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Fernast\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Microsoft\Xamarin\NuGet:/root/.nuget/fallbackpackages:ro
+    - C:\Users\Fernast\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService:/src:rw
+  servicestore.api.shop:
+    build:
+      context: C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService
+      dockerfile: ServiceStore.Api.Shop/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ServiceStore.Api.Shop
+      target: base
+    container_name: ServiceStore.Api.Shop
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: servicestoreapishop:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp3.1/ServiceStore.Api.Shop.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop:/app:rw
     - C:\Users\Fernast\vsdbg\vs2017u5:/remote_debugger:rw
     - C:\Users\Fernast\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
     - C:\Users\Fernast\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "439zhhyVpODncfrSuqA+EPmPshTZ5grwOCLZVezNV8pcj5EYvvdnawP1sLx3IsEZp1sfYCtFzHkrcr2jhI7qgQ==",
+  "dgSpecHash": "HcgXnNdp7KXeJ32srU5HiQNfPBp0Z1MwXs546dbXj1hNVKrBQyj9dUCUtPUKEwXwmhZW0GeKjD/UuNoEenTZHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fernast\\Documents\\Code\\DotNet\\MicroserviceStore\\StoreService\\ServiceStore.Api.Shop\\ServiceStore.Api.Shop.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
     "C:\\Users\\Fernast\\.nuget\\packages\\mysql.data\\8.0.20\\mysql.data.8.0.20.nupkg.sha512",

@@ -13,3 +13,11 @@ services:
     ports:
       - "6105:80"
 
+
+  servicestore.api.shop:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Services__Books=http://servicestore.api.book
+    ports:
+      - "6106:80"
+

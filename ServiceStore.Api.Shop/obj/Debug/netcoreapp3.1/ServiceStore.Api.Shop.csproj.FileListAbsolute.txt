@@ -49,9 +49,6 @@ C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceSto
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.csprojAssemblyReference.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.AssemblyInfoInputs.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.AssemblyInfo.cs
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.csproj.CoreCompileInputs.cache
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.RazorTargetAssemblyInfo.cache
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.csproj.CopyComplete
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\staticwebassets\ServiceStore.Api.Shop.StaticWebAssets.Manifest.cache
@@ -59,3 +56,6 @@ C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceSto
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.dll
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.pdb
 C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.genruntimeconfig.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.csproj.CoreCompileInputs.cache
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Fernast\Documents\Code\DotNet\MicroserviceStore\StoreService\ServiceStore.Api.Shop\obj\Debug\netcoreapp3.1\ServiceStore.Api.Shop.MvcApplicationPartsAssemblyInfo.cache

@@ -12,8 +12,15 @@ services:
       context: .
       dockerfile: ServiceStore.Api.Book/Dockerfile
 
+  servicestore.api.shop:
+    image: ${DOCKER_REGISTRY-}servicestoreapishop
+    build:
+      context: .
+      dockerfile: ServiceStore.Api.Shop/Dockerfile
+
 networks:
   default:
     external:
       name: microservicenet
+
 
